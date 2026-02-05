@@ -9,6 +9,7 @@ body{
     -webkit-text-size-adjust: 100%; 
     max-width: 2000px;
     min-width: 420px;
+    cursor: url(cursor.jpg), auto;
 }
 
 
@@ -80,17 +81,7 @@ body{
 
 
 .i:hover{
-    background-color: rgb(223, 222, 222);
-    color: black;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 10rem;
-    height: 5rem;
-    border-radius: 1rem;
+    color: white;
 }
 .ii{
     background-color: rgba(0, 0, 0, 0);
@@ -101,17 +92,7 @@ body{
     margin-right: 3rem;
 }
 .ii:hover{
-   background-color: rgb(223, 222, 222);
-    color: black;
-    margin-top: rem;
-    margin-bottom: 1rem;
-    padding-top: rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 10rem;
-    height: 5rem;
-    border-radius: 1rem;
+   color: white;
     
 }
 .iii{
@@ -123,17 +104,7 @@ body{
     margin-right: 3rem;
 }
 .iii:hover{
-    background-color: rgb(223, 222, 222);
-    color: black;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 10rem;
-    height: 5rem;
-    border-radius: 1rem;
+    color: white;
 }
 .iv{
         background-color: rgba(0, 0, 0, 0);
@@ -144,25 +115,18 @@ body{
     margin-right: 3rem;
 }
 .iv:hover{
-    background-color: rgb(223, 222, 222);
-    color: black;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 10rem;
-    height: 5rem;
-    border-radius: 1rem;
+    color: white;
 }
 .c{
-        color: wheat;
+    color: wheat;
     padding-top: 0%;
     border: none;
     font-size: 1.7rem;
     padding-top: 0.5rem;
     margin-top: 2.8rem;
+}
+.c:hover{
+    color: white;
 }
 .al{
     background-color: rgb(243, 19, 56);
