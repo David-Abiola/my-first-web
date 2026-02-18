@@ -11,6 +11,116 @@ body{
     min-width: 420px;
     cursor: ("cursor.jpg"), auto;
 }
+/* ==================== MOBILE FIX FINAL ==================== */
+@media screen and (max-width: 768px) {
+
+  body {
+    min-width: 0;
+  }
+
+  /* NAVBAR */
+  .ghi {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+
+  .p {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .al {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  /* HERO SECTION */
+  .ff {
+    font-size: 1.8rem;
+    padding-top: 12rem;
+  }
+
+  .fp {
+    font-size: 1.2rem;
+  }
+
+  /* CENTER TEXTS */
+  .pp,
+  .pimpp,
+  .discover,
+  .full-service,
+  .moa,
+  .oaa,
+  .client,
+  .report,
+  .op,
+  .tct {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* FLEX TO COLUMN */
+  .grid,
+  .ma,
+  .spiricoco,
+  .last,
+  .wide,
+  .div-div,
+  .money,
+  .secu,
+  .third,
+  .last-main,
+  .fff {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* CARDS WIDTH */
+  .first,
+  .mw,
+  .ipsum,
+  .she {
+    width: 90%;
+  }
+
+  /* FEATURED IMAGES */
+  .second-imgg,
+  .third-imagee,
+  .sss {
+    width: 100%;
+    height: auto;
+  }
+
+  /* DISCOVERY TEXT FIX */
+  .font {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* BUTTON */
+  .view-more {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  /* FOOTER */
+  .dddd {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .g {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .finput {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
   .grid,
