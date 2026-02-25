@@ -1,6 +1,15 @@
 *{
     margin: 0px;
     padding:0px;
+    box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -9,6 +18,7 @@ body{
     body {
     font-family: sans-serif;
     line-height: 1.6;
+    text-align: center;
 }
 
     /* cursor: ("cursor.jpg"), auto; */
@@ -415,6 +425,9 @@ img {
     text-align: center;
     margin-bottom: 2rem;
 }
+.de{
+    text-align: center;
+}
 
 .hooligan{
     display: flex;
@@ -632,13 +645,13 @@ img {
     color: whitesmoke;
 }
 .discover{
-    margin-left: 40%;
+    text-align: center;
     padding-top: 5rem;
     padding-bottom: 3rem;
     margin-top: 5rem;
 }
 .full-service{
-    margin-left: 41%;
+    text-align: center;
     font-size: 1.5rem;
 }
 .div-div{
@@ -674,11 +687,11 @@ img {
 }
 .font{
     font-size: 2rem;
-    margin-left: 47%;
+    text-align: center;
     padding-bottom: 3rem;
 }
 .moa{
-    margin-left: 40%;
+    text-align: center;
     color: rgba(0, 0, 0, 0.829);
     font-size: 2.5rem;
     font-family: sans-serif;
@@ -691,7 +704,7 @@ img {
 }
 .oaa{
     color: rgba(0, 0, 0, 0.829);
-    margin-left: 40%;
+    text-align: center;
     margin-top: 1.5rem;
     font-size: 1.5rem;
 }
@@ -736,19 +749,21 @@ img {
 }
 .client{
     padding-top: 3rem;
-    margin-left: 42%;
+    /* margin-left: 42%; */
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.5rem;
     color: rgba(0, 0, 0, 0.829);
     padding-bottom: 2rem;
+    text-align: center;
 }
 .asd{
     color: black;  
 }
 .report{
     color: rgba(0, 0, 0, 0.829);
-    margin-left: 35rem;
+    /* margin-left: 35rem; */
     font-size: 1.5rem;
+    text-align: center;
 }
 .ipsum{
     background-color: rgb(255, 255, 255);
@@ -793,7 +808,7 @@ img {
 .op{
     margin-top: 5rem;
     margin-bottom: 3rem;
-    margin-left: 40%;
+    text-align: center;
     color: black;
     font-size: 2.5rem;
     font-family: sans-serif;
@@ -801,7 +816,7 @@ img {
 .tct{
     color: rgba(0, 0, 0, 0.829);
     font-size: 1.5rem;
-    margin-left: 39.5%;
+    text-align: center;
 }
 .third{
     display: flex;
@@ -1089,17 +1104,7 @@ img {
   }
 }
 
-@media screen and (max-width: 768px) {
 
-  .third-subdiv,
-  .ssc-subdiv {
-   flex-direction: column;
-    text-align: center;
-    width: 70%;
-    height: auto;
-    container: ;
-  }
-}
 
 @media screen and (max-width: 768px) {
 
@@ -1122,6 +1127,126 @@ img {
     gap: 1rem;
   }
 }
+
+/* ============================= */
+/* GLOBAL RESPONSIVE FOUNDATION */
+/* ============================= */
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Remove forced width behavior */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove percentage margin centering */
+.pp,
+.pimpp,
+.moa,
+.oaa,
+.op,
+.tct,
+.client,
+.report,
+.discover,
+.full-service {
+  margin-left: 0 !important;
+  text-align: center !important;
+}
+
+/* Make all flex containers wrap properly */
+.grid,
+.ma,
+.spiricoco,
+.last,
+.wide,
+.div-div,
+.money,
+.secu,
+.third,
+.last-main,
+.p,
+.g,
+.dddd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Force children to shrink properly */
+.grid > *,
+.ma > *,
+.spiricoco > *,
+.last > *,
+.wide > *,
+.div-div > *,
+.money > *,
+.secu > *,
+.third > *,
+.last-main > * {
+  flex: 1 1 300px;
+  max-width: 100%;
+}
+
+/* Remove fixed image sizing */
+img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Fix navbar layout */
+.ghi {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.al {
+  margin-left: 0 !important;
+}
+
+/* Buttons full width on small screens */
+@media (max-width: 768px) {
+  .frb,
+  .fwb,
+  .view-more,
+  .red {
+    width: 100%;
+  }
+}
+
+/* Fix hero section spacing */
+@media (max-width: 768px) {
+  .ff {
+    padding-top: 12rem;
+    font-size: 2rem;
+  }
+
+  .fp {
+    font-size: 1.2rem;
+  }
+}
+
+.ghi {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 1rem;   /* small inner spacing */
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
 /* 
  MOBILE RESPONSIVENESS  */
 
@@ -1162,4 +1287,100 @@ img {
 }
 .iii{ width: 100%;
     margin-bottom: rem;
+}
+
+
+/* ========================= */
+/* GLOBAL FIX (Stops white space) */
+/* ========================= */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* ========================= */
+/* FIX NAVBAR OVERFLOW */
+/* ========================= */
+
+/* Remove any fixed width that may cause overflow */
+.ghi {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Fix logo stretching */
+.il {
+  width: 3rem !important;
+  max-width: 100%;
+}
+
+/* Remove forced 100% width from dropdown */
+.iii {
+  width: auto !important;
+}
+
+/* ========================= */
+/* KEEP NAVBAR FLOATING ON DESKTOP */
+/* ========================= */
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Prevent content hiding under navbar */
+body {
+  padding-top: 80px; /* adjust if your navbar height is different */
+}
+
+/* ========================= */
+/* MOBILE RESPONSIVENESS */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  .ghi {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+}
+
+
+/* ===== Fix Horizontal Overflow Completely ===== */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Prevent any section from exceeding screen width */
+section, div, header, nav {
+  max-width: 100%;
+}
+
+/* Fix hero image container */
+.hero {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* If you used background image */
+.hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* If you used img tag inside hero */
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
